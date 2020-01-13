@@ -12,10 +12,10 @@ SOFTENING                   = 9                     # how many pixel blur to sof
 EDGE_THRESHOLD              = 100                   # ???
 EDGE_RATIO                  = 2                     # ???
 
-LINE_POSITION_RESOLUTION    = 3                     # how precise the position of pixels on a line must be
+LINE_POSITION_RESOLUTION    = 2                     # how precise the position of pixels on a line must be
 LINE_ANGLE_RESOLUTION       = np.pi / 90            # how precise the angle of the line must be
 LINE_THRESHOLD              = 5                     # how many votes does this "line" need to be considered a line
-LINE_MINIMUM_LENGTH         = 25                    # minimum length of what is considered a line
+LINE_MINIMUM_LENGTH         = 20                    # minimum length of what is considered a line
 LINE_MAXIMUM_GAP            = 15                    # maximum space between parts of a line
 MAX_LINES                   = 4                     # maximum number of lines to detect
 LINE_DISTANCE_THRESHOLD     = 10                    # how far apart lines have to be to be considered unique
